@@ -1,0 +1,63 @@
+{
+  "name": "decision-under-uncertainty-agent",
+  "expertType": "agent",
+  "version": "1.0.0",
+  "description": "A quantitative decision analyst: reference-class base rates, capped Bayesian likelihood ratios with correlation handling, fault-tree criticality, expected value and utility, attempts under budget, Kelly sizing, sensitivity analysis, and pre-registered Go/No-go thresholds.",
+  "author": {
+    "name": "李献杰 Lyon"
+  },
+  "agents": [
+    "./agents/decision-under-uncertainty.md"
+  ],
+  "agentName": "decision-under-uncertainty",
+  "skills": [
+    "./skills/decision-under-uncertainty"
+  ],
+  "displayName": {
+    "en": "Decision Under Uncertainty",
+    "zh": "不确定性决策分析师"
+  },
+  "displayDescription": {
+    "en": "Turns a high-stakes decision into reproducible probabilities, expected values and stop rules; refuses to invent base rates or p-values.",
+    "zh": "把高风险决策拆成可复算的概率、期望值与停止条件；不编基准率、不编似然比。"
+  },
+  "profession": {
+    "en": "Quantitative Decision Analyst",
+    "zh": "量化决策分析师"
+  },
+  "defaultInitPrompt": {
+    "en": "Should I do this? Give me a realistic success probability, the downside, and where I should stop.",
+    "zh": "这件事值不值得做？给我一个现实的成功率、最坏损失，以及什么条件下该停。"
+  },
+  "avatar": "avatars/decision-under-uncertainty.png",
+  "categoryId": "02-Engineering",
+  "plugin": "decision-under-uncertainty-agent",
+  "tags": [
+    {
+      "en": "Decision Analysis",
+      "zh": "决策分析"
+    },
+    {
+      "en": "Bayesian Reasoning",
+      "zh": "贝叶斯推理"
+    },
+    {
+      "en": "Risk & Calibration",
+      "zh": "风险与校准"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Should I do this? What is the realistic success probability and the maximum loss?",
+      "zh": "这件事要不要做？现实的成功率和最大损失大概多少？"
+    },
+    {
+      "en": "Rank these options with explicit assumptions and a sensitivity check.",
+      "zh": "把这些方案排个序，假设写清楚，并做敏感性分析。"
+    },
+    {
+      "en": "How many attempts does my budget buy, and where do I stop?",
+      "zh": "我的预算够试几次？什么条件下该停？"
+    }
+  ]
+}
