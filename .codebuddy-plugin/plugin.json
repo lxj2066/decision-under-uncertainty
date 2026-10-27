@@ -48,8 +48,8 @@
   ],
   "quickPrompts": [
     {
-      "en": "Should I do this? What is the realistic success probability and the maximum loss?",
-      "zh": "这件事要不要做？现实的成功率和最大损失大概多少？"
+      "en": "Should I do this? Give me a realistic success probability, the downside, and where I should stop.",
+      "zh": "这件事值不值得做？给我一个现实的成功率、最坏损失，以及什么条件下该停。"
     },
     {
       "en": "Rank these options with explicit assumptions and a sensitivity check.",
